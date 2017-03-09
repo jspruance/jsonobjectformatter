@@ -292,8 +292,12 @@ class App extends Component {
     let inputObj = JSON.parse(this.state.inputvalue);
     let returnedjson = {};
     if(this.state.processtype == 'flatten'){
+      //empty object before starting
+      emptyObject(outputFlatObj);
       returnedjson = flatten(inputObj);
     }else{
+      //empty object before starting
+      emptyObject(outputUnFlatObj);
       returnedjson = unflatten(inputObj);
     }
 
