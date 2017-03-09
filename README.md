@@ -1,3 +1,7 @@
+JSON Object Formatter - Flatten and unflatten JSON objects. 
+
+Written with ReactJS and Material UI by Jonathan Spruance 3/8/2017.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
