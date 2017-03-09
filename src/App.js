@@ -202,7 +202,7 @@ const styles = {
   },
   inputcontainer: {
     float: 'left',
-    width: '50%'
+    width: '45%'
   },
   outputcontainer: {
     marginLeft: 35,
